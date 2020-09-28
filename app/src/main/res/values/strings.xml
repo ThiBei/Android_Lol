@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lol</string>
+    <string name="comment_vousd_finiriez_vous">Comment vousdéfiniriez vous ?</string>
+    <string name="fougueux">Fougueux</string>
+    <string name="peureux">Peureux</string>
+    <string name="fourbe">Fourbe</string>
+    <string name="un_peu_foufou">Un peu foufou</string>
+    <string name="DirDroite"><![CDATA[>]]></string>
+    <string name="DirGauch"><![CDATA[<]]></string>
+    <string name="comment_vous_d_finiriez_vous">Comment vous définiriez vous ?</string>
+    <string name="activit_3">Activité3</string>
+    <string name="comment_pr_f_res_tu_vivre">Comment préfères-tu vivre?</string>
+    <string name="seul_au_monde">Seul au monde</string>
+    <string name="je_pr_f_re_la_compagnie_des_animaux">Je préfère la compagnie des animaux</string>
+    <string name="j_alterne_entre_solitude_et_changes_avec_mes_amis">J\'alterne entre solitude et échanges avec mes amis</string>
+    <string name="plus_on_est_de_fous_plus_on_rit">Plus on est de fous plus on rit</string>
+    <string name="quelle_image_vous_parle_le_plus">Quelle image vous parle le plus ?</string>
+    <string name="todo">TODO</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="lors_d_un_combat">Lors d\'un combat :</string>
+</resources>

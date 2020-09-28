@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
@@ -36,10 +37,21 @@ public class ActivityQuestion4 extends AppCompatActivity {
         btnGauche= findViewById(R.id.btnGauche);
         btnDroit= findViewById(R.id.btnDroit);
 
+        btnGauche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goBack();
+            }
+        });
+
+        btnDroit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goNext();
+            }
+        });
 
     }
-
-
 
 
 
@@ -51,6 +63,19 @@ public class ActivityQuestion4 extends AppCompatActivity {
     public void goNext(){
         String res="";
 
+        if(checkBox1.isChecked()){
+            res=res+"rep1-";
+        }
+        if(checkBox2.isChecked()){
+            res=res+"rep2-";
+        }
+        if(checkBox3.isChecked()){
+            res=res+"rep3-";
+        }
+        if(checkBox4.isChecked()){
+            res=res+"rep4-";
+        }
+
 
         if(!res.equals("")) {
             Intent intent = new Intent(this, ActivityQuestion4.class);
@@ -58,7 +83,8 @@ public class ActivityQuestion4 extends AppCompatActivity {
             intent.putExtra("Q2", getIntent().getStringExtra("Q2"));
             intent.putExtra("Q3", getIntent().getStringExtra("Q3"));
             intent.putExtra("Q4", res);
-            Toast toast = Toast.makeText(getApplicationContext(), res,Toast.LENGTH_SHORT);
+            Toast toasti = Toast.makeText(getApplicationContext(), res,Toast.LENGTH_SHORT);
+            toasti.show();
             startActivity(intent);
         }else{
             Toast toast = Toast.makeText(getApplicationContext(), "Choisir au moins un choix",Toast.LENGTH_SHORT);

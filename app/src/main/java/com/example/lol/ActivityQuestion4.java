@@ -78,7 +78,7 @@ public class ActivityQuestion4 extends AppCompatActivity {
 
 
         if(!res.equals("")) {
-            Intent intent = new Intent(this, ActivityQuestion4.class);
+            Intent intent = new Intent(this, ActivityQuestion5.class);
             intent.putExtra("Q1", getIntent().getStringExtra("Q1"));
             intent.putExtra("Q2", getIntent().getStringExtra("Q2"));
             intent.putExtra("Q3", getIntent().getStringExtra("Q3"));

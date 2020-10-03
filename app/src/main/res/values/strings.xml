@@ -15,7 +15,12 @@
     <string name="j_alterne_entre_solitude_et_changes_avec_mes_amis">J\'alterne entre solitude et échanges avec mes amis</string>
     <string name="plus_on_est_de_fous_plus_on_rit">Plus on est de fous plus on rit</string>
     <string name="quelle_image_vous_parle_le_plus">Quelle image vous parle le plus ?</string>
-    <string name="todo">TODO</string>
     <string name="checkbox">CheckBox</string>
     <string name="lors_d_un_combat">Lors d\'un combat :</string>
+    <string name="une_grosse_boule_de_feu">Une GROSSE boule de feu</string>
+    <string name="la_meilleur_attaque_c_est_la_d_fance">La meilleur attaque c\'est la défance</string>
+    <string name="j_aime_mes_nemies_mort_loin">J\'aime mes énemies mort loin</string>
+    <string name="j_aime_les_voir_agoniser_sous_mes_yeux">j\'aime les voir agoniser sous mes yeux</string>
+    <string name="todo">""</string>
+    <string name="mon_arme_favorite">mon arme favorite</string>
 </resources>

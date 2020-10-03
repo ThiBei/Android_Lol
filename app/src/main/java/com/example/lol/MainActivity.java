@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         rbtn1 = findViewById(R.id.rbtn1);
+        rbtn1.setChecked(true);
         rbtn2 = findViewById(R.id.rbtn2);
         rbtn3 = findViewById(R.id.rbtn3);
         rbtn4 = findViewById(R.id.rbtn4);
         btnGauche= findViewById(R.id.btnGauche);
         btnDroit= findViewById(R.id.btnDroit);
 
-        rbtn1.setSelected(true);
 
         btnGauche.setOnClickListener(new View.OnClickListener() {
             @Override

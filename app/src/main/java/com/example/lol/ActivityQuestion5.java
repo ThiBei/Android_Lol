@@ -114,7 +114,7 @@ public class ActivityQuestion5 extends AppCompatActivity {
         Toast toast = Toast.makeText(getApplicationContext(), var,Toast.LENGTH_SHORT);
         toast.show();
 
-        Intent intent = new Intent(this, ActivityQuestion5.class);
+        Intent intent = new Intent(this, ActivityQuestion6.class);
         intent.putExtra("Q1", getIntent().getStringExtra("Q1"));
         intent.putExtra("Q2", getIntent().getStringExtra("Q2"));
         intent.putExtra("Q3", getIntent().getStringExtra("Q3"));

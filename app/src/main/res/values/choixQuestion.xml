@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choix_question">
+        <item>Choix 1</item>
+        <item>Choix 2</item>
+        <item>Choix 3</item>
+        <item>Choix 4</item>
+    </string-array>
+</resources>

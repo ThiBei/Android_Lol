@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//doit devenir Activité 1
 public class ActivityQuestion4 extends AppCompatActivity {
 
     private TextView textView;

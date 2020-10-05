@@ -24,7 +24,7 @@ public class ActivityResultat extends AppCompatActivity {
         textView = findViewById(R.id.textView);
         txtMail = findViewById(R.id.txtMail);
         imgChampion = findViewById(R.id.imgChampion);
-        imgChampion.setImageResource(R.drawable.gnar_classic);
+        imgChampion.setImageResource(R.drawable.leona_Solar);
 
         textView.setText(calculResulat());
 
@@ -63,6 +63,60 @@ public class ActivityResultat extends AppCompatActivity {
         }else { //4
             bot=bot+1;
         }
+
+        //bundle
+        imgChampion.setImageResource(R.drawable.teemo);
+        imgChampion.setImageResource(R.drawable.veigar);
+        imgChampion.setImageResource(R.drawable.tristana);
+        imgChampion.setImageResource(R.drawable.lulu);
+        //bilgwater
+        imgChampion.setImageResource(R.drawable.illaoo);
+        imgChampion.setImageResource(R.drawable.graves);
+        imgChampion.setImageResource(R.drawable.fizz);
+        imgChampion.setImageResource(R.drawable.MissFortune);
+        imgChampion.setImageResource(R.drawable.pyke);
+        //Targon
+        imgChampion.setImageResource(R.drawable.penthon);
+        imgChampion.setImageResource(R.drawable.diana);
+        imgChampion.setImageResource(R.drawable.aurelion);
+        imgChampion.setImageResource(R.drawable.aphelios);
+        imgChampion.setImageResource(R.drawable.leona_Solar);
+        //Ionia
+        imgChampion.setImageResource(R.drawable.irelia);
+        imgChampion.setImageResource(R.drawable.lee_sin);
+        imgChampion.setImageResource(R.drawable.ahri);
+        imgChampion.setImageResource(R.drawable.splash_art_rakan);
+        imgChampion.setImageResource(R.drawable.leona_Solar);
+        //Demacia
+        imgChampion.setImageResource(R.drawable.garen);
+        imgChampion.setImageResource(R.drawable.jarvan);
+        imgChampion.setImageResource(R.drawable.lux_splash_0);
+        imgChampion.setImageResource(R.drawable.lucian);
+        imgChampion.setImageResource(R.drawable.morgana);
+        //Noxus
+        imgChampion.setImageResource(R.drawable.spash_darius);
+        imgChampion.setImageResource(R.drawable.cassio);
+        imgChampion.setImageResource(R.drawable.katarina);
+        imgChampion.setImageResource(R.drawable.spash_draven);
+        imgChampion.setImageResource(R.drawable.swain);
+        //shurima
+        imgChampion.setImageResource(R.drawable.nasus);
+        imgChampion.setImageResource(R.drawable.rammus);
+        imgChampion.setImageResource(R.drawable.spash_azir);
+        imgChampion.setImageResource(R.drawable.sivir);
+        imgChampion.setImageResource(R.drawable.xerath);
+        //freljord
+        imgChampion.setImageResource(R.drawable.volibear);
+        imgChampion.setImageResource(R.drawable.sejuani);
+        imgChampion.setImageResource(R.drawable.lissandra);
+        imgChampion.setImageResource(R.drawable.ashe);
+        imgChampion.setImageResource(R.drawable.braum);
+        //piltover
+        imgChampion.setImageResource(R.drawable.camille);
+        imgChampion.setImageResource(R.drawable.vi);
+        imgChampion.setImageResource(R.drawable.orianna);
+        imgChampion.setImageResource(R.drawable.jinx);
+        imgChampion.setImageResource(R.drawable.blitzcrank);
 
 
 

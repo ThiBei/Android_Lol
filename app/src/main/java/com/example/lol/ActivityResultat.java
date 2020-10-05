@@ -2,21 +2,40 @@ package com.example.lol;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ActivityResultat extends AppCompatActivity {
 
 
     private TextView textView;
+    private Button btnSend;
+    private TextView txtMail;
+    private ImageView imgChampion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultat);
         textView = findViewById(R.id.textView);
+        txtMail = findViewById(R.id.txtMail);
+        imgChampion = findViewById(R.id.imgChampion);
+        imgChampion.setImageResource(R.drawable.gnar_classic);
 
         textView.setText(calculResulat());
 
+        btnSend = findViewById(R.id.btnSend);
+        btnSend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(!txtMail.getText().toString().equals(""))
+                sendMail();
+            }
+        });
 
     }
 
@@ -49,5 +68,19 @@ public class ActivityResultat extends AppCompatActivity {
 
 
         return "t'es le boss";
+    }
+
+    private void sendMail(){
+        String mail = txtMail.getText().toString();
+        Intent i = new Intent(Intent.ACTION_SEND);
+        i.setType("message/rfc822");
+        i.putExtra(Intent.EXTRA_EMAIL  , new String[]{mail});
+        i.putExtra(Intent.EXTRA_SUBJECT, "Results");//objet
+        i.putExtra(Intent.EXTRA_TEXT   , "Voici les résultats de votre GPHY test :\n\n" +"blabla");//corps
+        try {
+            startActivity(Intent.createChooser(i, "Send mail..."));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+        }
     }
 }

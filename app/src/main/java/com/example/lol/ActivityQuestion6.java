@@ -3,6 +3,7 @@ package com.example.lol;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -46,7 +47,6 @@ public class ActivityQuestion6 extends AppCompatActivity {
     }
 
     public void goNext(){
-
 
         String var = "";
         var=spin.getSelectedItem().toString();

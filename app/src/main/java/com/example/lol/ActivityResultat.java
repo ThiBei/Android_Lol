@@ -24,7 +24,7 @@ public class ActivityResultat extends AppCompatActivity {
         textView = findViewById(R.id.textView);
         txtMail = findViewById(R.id.txtMail);
         imgChampion = findViewById(R.id.imgChampion);
-        imgChampion.setImageResource(R.drawable.leona_Solar);
+        imgChampion.setImageResource(R.drawable.lol_leona_splash_hd);
 
         textView.setText(calculResulat());
 
@@ -73,20 +73,20 @@ public class ActivityResultat extends AppCompatActivity {
         imgChampion.setImageResource(R.drawable.illaoo);
         imgChampion.setImageResource(R.drawable.graves);
         imgChampion.setImageResource(R.drawable.fizz);
-        imgChampion.setImageResource(R.drawable.MissFortune);
+        imgChampion.setImageResource(R.drawable.);
         imgChampion.setImageResource(R.drawable.pyke);
         //Targon
         imgChampion.setImageResource(R.drawable.penthon);
         imgChampion.setImageResource(R.drawable.diana);
         imgChampion.setImageResource(R.drawable.aurelion);
         imgChampion.setImageResource(R.drawable.aphelios);
-        imgChampion.setImageResource(R.drawable.leona_Solar);
+        imgChampion.setImageResource(R.drawable.lol_leona_splash_hd);
         //Ionia
         imgChampion.setImageResource(R.drawable.irelia);
         imgChampion.setImageResource(R.drawable.lee_sin);
         imgChampion.setImageResource(R.drawable.ahri);
         imgChampion.setImageResource(R.drawable.splash_art_rakan);
-        imgChampion.setImageResource(R.drawable.leona_Solar);
+        imgChampion.setImageResource(R.drawable.lol_leona_splash_hd);
         //Demacia
         imgChampion.setImageResource(R.drawable.garen);
         imgChampion.setImageResource(R.drawable.jarvan);

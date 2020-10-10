@@ -285,8 +285,15 @@ public class ActivityResultat extends AppCompatActivity {
     }
 
     private void sendMail(){
-        String mail = txtMail.getText().toString();
-        Intent i = new Intent(Intent.ACTION_SEND);
+        String mMail = txtMail.getText().toString();
+        String mSubject = "Resulat du questionaire de League of Legends !";
+        String mMessage = " tu est super !";
+
+        JavaMainAPI javaMainAPI = new JavaMainAPI(this,mMail,mSubject,mMessage);
+        javaMainAPI.execute();
+
+
+       /* Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("message/rfc822");
         i.putExtra(Intent.EXTRA_EMAIL  , new String[]{mail});
         i.putExtra(Intent.EXTRA_SUBJECT, "Results");//objet
@@ -295,6 +302,6 @@ public class ActivityResultat extends AppCompatActivity {
             startActivity(Intent.createChooser(i, "Send mail..."));
         } catch (android.content.ActivityNotFoundException ex) {
             Toast.makeText(this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
-        }
+        }*/
     }
 }

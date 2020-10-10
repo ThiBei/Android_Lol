@@ -102,13 +102,13 @@ public class ActivityQuestion5 extends AppCompatActivity {
          */
         String var = "";
         if(rbtn1.isChecked()){
-            var="feu";
+            var="mid";
         }else if(rbtn2.isChecked()){
-            var="bouclier";
+            var="supp";
         }else if(rbtn3.isChecked()){
-            var="arc";
+            var="adc";
         }else if(rbtn4.isChecked()){
-            var="epee";
+            var="top-jungle";
         }
 
         Toast toast = Toast.makeText(getApplicationContext(), var,Toast.LENGTH_SHORT);

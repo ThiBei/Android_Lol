@@ -82,13 +82,13 @@ public class MainActivity extends AppCompatActivity {
          */
         String var = null;
         if(rbtn1.isChecked()){
-            var="1";
+            var="top-supp-ionia-demacia-freljord";
         }else if(rbtn2.isChecked()){
-            var="2";
+            var="adc-mid-shurima";
         }else if(rbtn3.isChecked()){
-            var="3";
+            var="mid-jungle-noxus-bundle-piltover";
         }else if(rbtn4.isChecked()){
-            var="4";
+            var="top-supp-noxus-bundle-piltover-bilgwater";
         }
         Toast toast = Toast.makeText(getApplicationContext(), var,Toast.LENGTH_SHORT);
         toast.show();

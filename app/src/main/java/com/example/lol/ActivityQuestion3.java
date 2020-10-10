@@ -57,57 +57,57 @@ public class ActivityQuestion3 extends AppCompatActivity {
         btnBundle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Bundle");
+                goNext("bundle");
             }
         });
         btnBilgewater.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Bilgewater");
+                goNext("bilgewater");
             }
         });
         btnTargon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Targon");
+                goNext("targon");
             }
         });
 
         btnIonia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Ionia");
+                goNext("ionia");
             }
         });
         btnDemacia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Demacia");
+                goNext("demacia");
             }
         });
         btnNoxus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Noxus");
+                goNext("noxus");
             }
         });
 
         btnShurima.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Shurima");
+                goNext("shurima");
             }
         });
         btnFreljord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Freljord");
+                goNext("freljord");
             }
         });
         btnPiltover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goNext("Piltover");
+                goNext("piltover");
             }
         });
 

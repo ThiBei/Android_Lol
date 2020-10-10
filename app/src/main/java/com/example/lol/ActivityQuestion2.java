@@ -76,13 +76,13 @@ public class ActivityQuestion2 extends AppCompatActivity {
              */
                 String var = null;
             if (rbtn1.isChecked()) {
-                var = "1";
+                var = "top-freljord-targon";
             } else if (rbtn2.isChecked()) {
-                var = "2";
+                var = "jungle-bundle-ionia";
             } else if (rbtn3.isChecked()) {
-                var = "3";
+                var = "adc-supp-ionia-shurima";
             } else if (rbtn4.isChecked()) {
-                var = "4";
+                var = "mid-demacia-noxus";
             }
             Toast toast = Toast.makeText(getApplicationContext(), var, Toast.LENGTH_SHORT);
             toast.show();
